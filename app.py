@@ -160,7 +160,7 @@ def predict_from_bgr(img_bgr, do_clahe=True, long_side=512):
 # Streamlit UI
 # ============================================================
 st.set_page_config(page_title="BSL Gesture Classifier", layout="centered")
-st.title("BSL Hand Gesture Classifier (MediaPipe Landmarks + MLP)")
+st.title("BSL Hand Gesture Classifier (MediaPipe Landmarks + EfficientNetB0)")
 
 st.write("Upload an image. The app extracts hand landmarks and predicts the BSL class.")
 
